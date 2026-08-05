@@ -34,7 +34,7 @@ Users can securely sign in, manage expenses, apply filters, and track total spen
 
 ## 🚀 Live Demo
 
-🔗 _Link_
+🔗 _https://expense-tracker-ten-tau-54.vercel.app/_
 
 ---
 
@@ -43,7 +43,7 @@ Users can securely sign in, manage expenses, apply filters, and track total spen
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/KartikeyKundu/Expense-Tracker.git
 cd Expense-Tracker
 ```
 
@@ -69,7 +69,7 @@ Create a `.env.local` file in the root directory:
 
 ```env
 NEXTAUTH_SECRET=your_nextauth_secret
-MONGODB_URI=your_mongodb_connection_string
+CONN_STRING=your_mongodb_connection_string
 
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
